@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/*Flexbox shortcuts*/
+.flex{
+    display: flex;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.center{
+    justify-content: center;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+.start{
+    justify-content: flex-start;
+}
